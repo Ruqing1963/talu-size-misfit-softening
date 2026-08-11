@@ -1,0 +1,17 @@
+# Derived elastic parameters. stroh_field.py, depin3d.py
+quantity,symbol,value,unit,source
+lattice parameter,a0,3.3058,A,input
+Burgers vector,b,2.8629,A,a0*sqrt(3)/2
+elastic constant,C11,266.0,GPa,literature
+elastic constant,C12,158.2,GPa,literature
+elastic constant,C44,87.4,GPa,literature
+Zener anisotropy,A_Z,1.622,-,2C44/(C11-C12)
+bulk modulus,K,194.1,GPa,(C11+2C12)/3
+relaxation volume,Omega_rel,11.45,A^3,"hard sphere, placeholder"
+elastic dipole,P,13.87,eV,K*Omega_rel
+isotropic amplitude,A_iso,3.1955,eV.A,stroh_field.py
+edge line tension,Gamma_edge,0.94,eV/A,de Wit-Koehler
+screw line tension,Gamma_screw,3.935,eV/A,de Wit-Koehler
+naive line tension,mu b^2/2,1.765,eV/A,for comparison
+theoretical strength,mu/30,2.3,GPa,-
+Stroh validation error,-,2.6e-08,-,vs closed form

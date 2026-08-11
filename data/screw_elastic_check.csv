@@ -1,0 +1,5 @@
+# Screw dilatation vanishes identically in isotropic elasticity. screw_check.py
+case,max_abs_eps_kk,max_abs_U_meV,probe_radius_A
+"edge, anisotropic",0.04523,627.53,5.0
+"screw, isotropic",1.221e-15,0.0,5.0
+"screw, anisotropic",0.004713,65.39,5.0
