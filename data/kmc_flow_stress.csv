@@ -1,7 +1,0 @@
-# c0=2 at.% Lu, U_cap=0.30 eV placeholder, sigma=0.0382 eV, 2E_k=0.90 eV. softening_term = sigma^2/(2 kT). NaN = outside the stress bracket. kink_kmc.py
-T_K,tau_pure_GPa,tau_alloy_GPa,ratio,kink_density,softening_term_meV
-100,0.815,1.008,1.237,0.0136,84.6
-150,0.235,0.517,2.198,0.0125,56.4
-200,0.012,0.187,15.649,0.0162,42.3
-300,0.0005,0.1,nan,0.0132,28.2
-450,nan,0.03,nan,0.0201,18.8
