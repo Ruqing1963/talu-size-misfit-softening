@@ -1,0 +1,52 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.4cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{caption}
+\usepackage[table]{xcolor}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue]{hyperref}
+\usepackage[numbers,sort&compress,square]{natbib}
+\bibliographystyle{unsrtnat}
+\usepackage{enumitem}
+\setlist{nosep,leftmargin=1.6em}
+
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setmainfont{DejaVu Serif}[Scale=0.92]
+\setsansfont{DejaVu Sans}[Scale=0.9]
+\setmonofont{DejaVu Sans Mono}[Scale=0.85]
+\setCJKmainfont{Noto Serif CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans Mono CJK SC}
+\usepackage{unicode-math}
+\setmathfont{DejaVu Math TeX Gyre}
+
+% Chinese typographic conventions
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+\linespread{1.25}
+\setlength{\parindent}{2em}
+
+\captionsetup{font=small,labelfont=bf,width=0.92\textwidth}
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+\renewcommand{\refname}{参考文献}
+\renewcommand{\bibname}{参考文献}
+\graphicspath{{../figures/}}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\pandocbounded}[1]{#1}
+
+\title{\bfseries 弹性尺寸失配的物理上限：\\
+统计无序能否导致 bcc 钽的固溶软化？\\[6pt]
+\large Ta(Lu) 体系的扭折对动力学蒙特卡洛研究\\
+及一项预先设定判据的第一性原理检验}
+\author{吴荣华\thanks{珠海九重天航空科技有限公司，中国珠海。
+\texttt{wrh@gdtzn.com}}
+\and 陈儒庆\thanks{GUT Geoservice Inc.，加拿大蒙特利尔。
+\texttt{ruqing@hotmail.com}}}
+\date{\number\year 年 \number\month 月 \number\day 日}
