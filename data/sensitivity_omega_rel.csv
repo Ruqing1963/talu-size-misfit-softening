@@ -1,7 +1,0 @@
-# tau_c ~ Omega_rel^1.26; VC analytic exponent is 4/3. omega_scan.py
-Omega_rel_A3,tau_c_GPa,tau_c_sd_GPa
-7.0,0.601,0.04
-9.0,0.882,0.153
-11.45,1.19,0.06
-14.0,1.423,0.024
-17.0,1.912,0.077
