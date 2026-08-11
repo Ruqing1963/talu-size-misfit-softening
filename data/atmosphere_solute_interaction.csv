@@ -1,6 +1,0 @@
-# Semi-grand-canonical, T_age=900 K. J=0 reproduces analytic Fermi-Dirac to 0.8 sigma. atmosphere3d.py
-omega_eV,J_eV,n_solute,trough_depth_eV_per_A,tau_c_GPa,tau_c_sd_GPa,enhancement_over_J0
-0.0,-0.0,5824,-1.888,5.197,0.189,1.0
-0.02,-0.02,6494,-2.263,6.44,0.061,1.24
-0.04,-0.04,7774,-2.896,7.602,0.189,1.46
-0.06,-0.06,10669,-4.083,9.392,0.258,1.81
