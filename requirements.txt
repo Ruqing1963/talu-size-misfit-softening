@@ -1,0 +1,9 @@
+# Pinned to the versions used for the archived results.
+# Numba's fastmath and internal RNG make exact reproduction
+# version-dependent; see the reproducibility note in README.md.
+
+numpy==2.4.4
+scipy==1.17.1
+numba==0.66.0
+matplotlib==3.10.8
+ase==3.29.0

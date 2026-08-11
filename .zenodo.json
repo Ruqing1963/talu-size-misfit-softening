@@ -1,0 +1,36 @@
+{
+  "title": "Elastic Size Misfit at Its Physical Ceiling: a Ta(Lu) Probe for Solid Solution Softening in bcc Metals",
+  "upload_type": "software",
+  "description": "Multiscale pipeline (Stroh anisotropic elasticity, semi-grand-canonical atmosphere sampling, solid-on-solid kink-pair kinetic Monte Carlo, and VASP/QE input generators for 39 pre-specified DFT calculations) accompanying a preregistered test of whether statistical elastic disorder is sufficient to cause solid solution softening in bcc Ta. v2.0 adds the full manuscript in English and Chinese with LaTeX sources, a CSV data layer from which every figure is regenerated, vector figures, and a bibliography in which all 18 entries were checked against publisher records (nine errors corrected). Archived at the preregistration stage: no DFT results exist in this release; run verify_no_results.sh to confirm the output templates are empty.",
+  "creators": [
+    {
+      "name": "Wu, Ronghua",
+      "affiliation": "Zhuhai Jiuchongtian Aviation Technology Co., Ltd., Zhuhai, China"
+    },
+    {
+      "name": "Chen, Ruqing",
+      "affiliation": "GUT Geoservice Inc., Montreal, Canada"
+    }
+  ],
+  "keywords": [
+    "dislocation",
+    "solid solution softening",
+    "kink pair",
+    "kinetic Monte Carlo",
+    "Stroh formalism",
+    "bcc tantalum",
+    "size misfit",
+    "Cottrell atmosphere",
+    "preregistration"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Ruqing1963/talu-size-misfit-softening",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "version": "2.0"
+}
