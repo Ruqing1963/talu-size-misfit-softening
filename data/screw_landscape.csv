@@ -1,4 +1,0 @@
-# Screw trough is 76x shallower and its line 4.19x stiffer. screw_depin.py
-character,max_binding_eV,trough_depth_eV_per_A,max_Fpin_eV_per_A,Gamma_eV_per_A
-screw,-0.05,-0.0201,0.287,3.935
-edge,-0.411,-1.5335,1.163,0.94
