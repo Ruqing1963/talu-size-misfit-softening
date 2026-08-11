@@ -1,5 +1,0 @@
-# Screw values are upper bounds: depinning occurred at the first nonzero stress step of a 0.30 GPa ramp. screw_depin.py
-theta,tau_c_screw_GPa,tau_c_edge_GPa,ratio
-0.0,0.0006,0.155,0.004
-0.25,0.0006,1.248,0.0005
-1.0,0.0006,5.184,0.0001
